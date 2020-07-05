@@ -1,0 +1,5 @@
+ git reset HEAD^
+
+git checkout pushed
+
+git revert HEAD

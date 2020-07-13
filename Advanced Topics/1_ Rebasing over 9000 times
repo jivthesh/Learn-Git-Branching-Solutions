@@ -1,0 +1,47 @@
+Solution 1: 
+
+git rebase master bugFix
+
+git rebase bugFix side
+
+git rebase side another
+
+git branch -f master HEAD
+
+
+
+Solution 2:
+
+git rebase side another
+
+git rebase bugFix another
+
+git rebase master another
+
+git branch -f bugFix C3'
+
+git branch -f side C6''
+
+git branch -f master HEAD
+
+
+
+Solution 3: 
+
+git checkout another
+
+git rebase side
+
+git rebase bugFix
+
+git rebase master
+
+git branch -f bugFix C3'
+
+git branch -f side C6''
+
+git branch -f master another
+
+
+
+

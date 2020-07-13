@@ -1,0 +1,3 @@
+git rebase -i HEAD~3
+
+git branch -f master bugFix

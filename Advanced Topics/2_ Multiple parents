@@ -1,0 +1,31 @@
+Solution 1:
+
+git checkout HEAD~1^2~1
+
+git branch bugWork
+
+git checkout master
+
+Solution 2: 
+
+git branch bugWork master~1^2~1
+
+Solution 3: 
+
+git checkout HEAD~1
+
+git checkout HEAD^2
+
+git checkout HEAD~
+
+git branch bugWork
+
+git checkout master
+
+Solution 4:
+
+git checkout c2
+
+git branch bugWork
+
+git checkout master

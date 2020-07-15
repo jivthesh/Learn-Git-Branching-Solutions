@@ -1,0 +1,9 @@
+git clone
+
+git fakeTeamwork master 2
+
+git fetch
+
+git commit
+
+git merge o/master
